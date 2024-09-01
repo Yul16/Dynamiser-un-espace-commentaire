@@ -34,6 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
       commentDiv.appendChild(commentContentDiv);
 
       commentList.appendChild(commentDiv);
+
+      form.reset();
     }
   });
 });
