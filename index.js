@@ -28,6 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
       const p = document.createElement("p");
       p.className = "prose prose-sm mt-4 max-w-none text-gray-500";
       p.textContent = message;
+
+      commentContentDiv.appendChild(h3);
+      commentContentDiv.appendChild(p);
+      commentDiv.appendChild(commentContentDiv);
     }
   });
 });
