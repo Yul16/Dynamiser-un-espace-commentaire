@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
       commentContentDiv.appendChild(h3);
       commentContentDiv.appendChild(p);
       commentDiv.appendChild(commentContentDiv);
+
+      commentList.appendChild(commentDiv);
     }
   });
 });
